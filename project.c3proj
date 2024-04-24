@@ -9,14 +9,14 @@
 		{
 			"type": "plugin",
 			"id": "Camera3D",
-			"name": "Cámara 3D",
+			"name": "3D camera",
 			"author": "Scirra",
 			"bundled": false
 		},
 		{
 			"type": "plugin",
 			"id": "Keyboard",
-			"name": "Teclado",
+			"name": "Keyboard",
 			"author": "Scirra",
 			"bundled": false
 		},
@@ -30,7 +30,7 @@
 		{
 			"type": "plugin",
 			"id": "Shape3D",
-			"name": "Forma 3D",
+			"name": "3D shape",
 			"author": "Scirra",
 			"bundled": false
 		},

@@ -1,5 +1,78 @@
 {
 	"name": "Hoja de eventos 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "every-tick",
+					"objectClass": "System",
+					"sid": 635867951445131
+				}
+			],
+			"actions": [
+				{
+					"id": "set-position",
+					"objectClass": "Cámara3D",
+					"sid": 670693382086091,
+					"parameters": {
+						"x": "camara.x",
+						"y": "camara.y",
+						"z": "camara.ZElevation",
+						"which": "camera"
+					}
+				}
+			],
+			"sid": 655749723166901
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-start-of-layout",
+					"objectClass": "System",
+					"sid": 703109687046175
+				}
+			],
+			"actions": [
+				{
+					"id": "look-parallel-to-layout",
+					"objectClass": "Cámara3D",
+					"sid": 881104984759011,
+					"parameters": {
+						"cam-x": "0",
+						"cam-y": "0",
+						"cam-z": "10",
+						"look-angle": "0"
+					}
+				}
+			],
+			"sid": 447133125642626
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-movement",
+					"objectClass": "Mouse",
+					"sid": 436347525751251
+				}
+			],
+			"actions": [
+				{
+					"id": "rotate-camera",
+					"objectClass": "Cámara3D",
+					"sid": 331890373227479,
+					"parameters": {
+						"rotate-x": "Mouse.MovementX",
+						"rotate-y": "Mouse.MovementY",
+						"min-polar-angle": "20",
+						"max-polar-angle": "180"
+					}
+				}
+			],
+			"sid": 482281296817352
+		}
+	],
 	"sid": 948143813749575
 }
