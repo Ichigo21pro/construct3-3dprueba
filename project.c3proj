@@ -15,6 +15,13 @@
 		},
 		{
 			"type": "plugin",
+			"id": "Keyboard",
+			"name": "Teclado",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "plugin",
 			"id": "Mouse",
 			"name": "Mouse",
 			"author": "Scirra",
@@ -42,7 +49,8 @@
 			"Suelo",
 			"Pared",
 			"camara",
-			"Mouse"
+			"Mouse",
+			"Teclado"
 		],
 		"subfolders": []
 	},
