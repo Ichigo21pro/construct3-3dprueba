@@ -62,10 +62,10 @@
 				{
 					"id": "rotate-camera",
 					"objectClass": "Cámara3D",
-					"sid": 331890373227479,
+					"sid": 803833308249275,
 					"parameters": {
-						"rotate-x": "Mouse.MovementX",
-						"rotate-y": "Mouse.MovementY",
+						"rotate-x": "Mouse.MovementX/10",
+						"rotate-y": "Mouse.MovementY/10",
 						"min-polar-angle": "20",
 						"max-polar-angle": "180"
 					}
