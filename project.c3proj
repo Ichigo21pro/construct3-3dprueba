@@ -12,12 +12,20 @@
 			"name": "Cámara 3D",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Shape3D",
+			"name": "Forma 3D",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "r261jr33wsi",
 	"objectTypes": {
 		"items": [
-			"Cámara3D"
+			"Cámara3D",
+			"Suelo"
 		],
 		"subfolders": []
 	},
