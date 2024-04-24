@@ -285,6 +285,35 @@
 						"angle": 0,
 						"zElevation": 16
 					}
+				},
+				{
+					"type": "camara",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 10,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 782.5,
+						"y": 933,
+						"width": 79,
+						"height": 77,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 16
+					}
 				}
 			],
 			"sid": 406260056062504,

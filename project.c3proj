@@ -19,6 +19,13 @@
 			"name": "Forma 3D",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "plugin",
+			"id": "Sprite",
+			"name": "Sprite",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "r261jr33wsi",
@@ -26,7 +33,8 @@
 		"items": [
 			"Cámara3D",
 			"Suelo",
-			"Pared"
+			"Pared",
+			"camara"
 		],
 		"subfolders": []
 	},
