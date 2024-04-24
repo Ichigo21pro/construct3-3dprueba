@@ -25,7 +25,8 @@
 	"objectTypes": {
 		"items": [
 			"Cámara3D",
-			"Suelo"
+			"Suelo",
+			"Pared"
 		],
 		"subfolders": []
 	},
