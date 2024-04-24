@@ -72,6 +72,28 @@
 				}
 			],
 			"sid": 482281296817352
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 925187294450744,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "request-pointer-lock",
+					"objectClass": "Mouse",
+					"sid": 207051372346915
+				}
+			],
+			"sid": 838921926612678
 		}
 	],
 	"sid": 948143813749575
