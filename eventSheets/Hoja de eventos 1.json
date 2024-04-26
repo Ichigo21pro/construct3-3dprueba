@@ -21,6 +21,15 @@
 						"z": "camara.ZElevation",
 						"which": "camera"
 					}
+				},
+				{
+					"id": "set-position",
+					"objectClass": "laser",
+					"sid": 187865284645397,
+					"parameters": {
+						"x": "camara.x",
+						"y": "camara.y"
+					}
 				}
 			],
 			"sid": 655749723166901

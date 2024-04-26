@@ -59,7 +59,8 @@
 			"Mouse",
 			"Teclado",
 			"enemy",
-			"weapon"
+			"weapon",
+			"laser"
 		],
 		"subfolders": []
 	},

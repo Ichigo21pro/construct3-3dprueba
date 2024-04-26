@@ -47,38 +47,23 @@
 					}
 				},
 				{
-					"type": "weapon",
+					"type": "laser",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "stand",
+						"initial-animation": "Animation 1",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
-					"uid": 18,
+					"uid": 19,
 					"instanceVariables": {},
-					"behaviors": {
-						"Seno": {
-							"properties": {
-								"movement": "horizontal",
-								"wave": "sine",
-								"period": 4,
-								"period-random": 0,
-								"period-offset": 0,
-								"period-offset-random": 0,
-								"magnitude": 50,
-								"magnitude-random": 0,
-								"enabled": true,
-								"live-preview": false
-							}
-						}
-					},
+					"behaviors": {},
 					"world": {
-						"x": 745,
-						"y": 1447,
-						"width": 319,
-						"height": 315,
-						"originX": 0.5,
+						"x": -271,
+						"y": 1310,
+						"width": 2295,
+						"height": 30,
+						"originX": 0,
 						"originY": 0.5,
 						"color": [
 							1,
@@ -593,7 +578,52 @@
 			"name": "hud",
 			"overriden": 0,
 			"subLayers": [],
-			"instances": [],
+			"instances": [
+				{
+					"type": "weapon",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "stand",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 18,
+					"instanceVariables": {},
+					"behaviors": {
+						"Seno": {
+							"properties": {
+								"movement": "vertical",
+								"wave": "sine",
+								"period": 3,
+								"period-random": 0,
+								"period-offset": 0,
+								"period-offset-random": 0,
+								"magnitude": 3,
+								"magnitude-random": 0,
+								"enabled": true,
+								"live-preview": false
+							}
+						}
+					},
+					"world": {
+						"x": 427,
+						"y": 410,
+						"width": 304,
+						"height": 263,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 0
+					}
+				}
+			],
 			"sid": 342523814909106,
 			"effectTypes": [],
 			"isInitiallyVisible": true,
