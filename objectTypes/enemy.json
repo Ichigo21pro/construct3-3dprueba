@@ -1,0 +1,115 @@
+{
+	"name": "enemy",
+	"plugin-id": "Shape3D",
+	"sid": 997737004331423,
+	"isGlobal": false,
+	"instanceVariables": [],
+	"behaviorTypes": [],
+	"effectTypes": [],
+	"animations": {
+		"items": [
+			{
+				"frames": [
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6679985,
+						"collisionPoly": {
+							"points": [
+								0,
+								1,
+								0,
+								0,
+								1,
+								0,
+								1,
+								1
+							]
+						},
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 274622,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 6552816,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 2925352,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 5108392,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					},
+					{
+						"width": 120,
+						"height": 120,
+						"originX": 0.5,
+						"originY": 0.5,
+						"originalSource": "",
+						"exportFormat": "lossless",
+						"exportQuality": 0.8,
+						"imageSpriteId": 282316,
+						"useCollisionPoly": true,
+						"duration": 1,
+						"tag": ""
+					}
+				],
+				"sid": 909790155386536,
+				"name": "Animation 1",
+				"isLooping": false,
+				"isPingPong": false,
+				"repeatCount": 1,
+				"repeatTo": 0,
+				"speed": 5
+			}
+		],
+		"subfolders": []
+	}
+}

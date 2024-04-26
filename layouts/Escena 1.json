@@ -314,6 +314,206 @@
 						"angle": 0,
 						"zElevation": 16
 					}
+				},
+				{
+					"type": "enemy",
+					"properties": {
+						"shape": "box",
+						"z-height": 15,
+						"initially-visible": true,
+						"face-back": false,
+						"face-front": true,
+						"face-left": true,
+						"face-right": true,
+						"face-top": true,
+						"face-bottom": true,
+						"z-tiling-factor": 8,
+						"object-back": -1,
+						"object-front": -1,
+						"object-left": -1,
+						"object-right": -1,
+						"object-top": -1,
+						"object-bottom": -1
+					},
+					"uid": 16,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1468,
+						"y": 105,
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 17
+					}
+				},
+				{
+					"type": "enemy",
+					"properties": {
+						"shape": "box",
+						"z-height": 15,
+						"initially-visible": true,
+						"face-back": false,
+						"face-front": true,
+						"face-left": true,
+						"face-right": true,
+						"face-top": true,
+						"face-bottom": true,
+						"z-tiling-factor": 8,
+						"object-back": -1,
+						"object-front": -1,
+						"object-left": -1,
+						"object-right": -1,
+						"object-top": -1,
+						"object-bottom": -1
+					},
+					"uid": 13,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 406,
+						"y": 460,
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 17
+					}
+				},
+				{
+					"type": "enemy",
+					"properties": {
+						"shape": "box",
+						"z-height": 15,
+						"initially-visible": true,
+						"face-back": false,
+						"face-front": true,
+						"face-left": true,
+						"face-right": true,
+						"face-top": true,
+						"face-bottom": true,
+						"z-tiling-factor": 8,
+						"object-back": -1,
+						"object-front": -1,
+						"object-left": -1,
+						"object-right": -1,
+						"object-top": -1,
+						"object-bottom": -1
+					},
+					"uid": 17,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1035,
+						"y": 841,
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 17
+					}
+				},
+				{
+					"type": "enemy",
+					"properties": {
+						"shape": "box",
+						"z-height": 15,
+						"initially-visible": true,
+						"face-back": false,
+						"face-front": true,
+						"face-left": true,
+						"face-right": true,
+						"face-top": true,
+						"face-bottom": true,
+						"z-tiling-factor": 8,
+						"object-back": -1,
+						"object-front": -1,
+						"object-left": -1,
+						"object-right": -1,
+						"object-top": -1,
+						"object-bottom": -1
+					},
+					"uid": 15,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 1286,
+						"y": 475,
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 31
+					}
+				},
+				{
+					"type": "enemy",
+					"properties": {
+						"shape": "box",
+						"z-height": 15,
+						"initially-visible": true,
+						"face-back": false,
+						"face-front": true,
+						"face-left": true,
+						"face-right": true,
+						"face-top": true,
+						"face-bottom": true,
+						"z-tiling-factor": 8,
+						"object-back": -1,
+						"object-front": -1,
+						"object-left": -1,
+						"object-right": -1,
+						"object-top": -1,
+						"object-bottom": -1
+					},
+					"uid": 14,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": 397,
+						"y": 325,
+						"width": 50,
+						"height": 50,
+						"originX": 0.5,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 31
+					}
 				}
 			],
 			"sid": 406260056062504,

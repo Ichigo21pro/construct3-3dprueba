@@ -50,7 +50,8 @@
 			"Pared",
 			"camara",
 			"Mouse",
-			"Teclado"
+			"Teclado",
+			"enemy"
 		],
 		"subfolders": []
 	},
