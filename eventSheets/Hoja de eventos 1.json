@@ -30,6 +30,14 @@
 						"x": "camara.x",
 						"y": "camara.y"
 					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "laser",
+					"sid": 892972361189939,
+					"parameters": {
+						"angle": "camara.Angle"
+					}
 				}
 			],
 			"sid": 655749723166901
@@ -77,6 +85,14 @@
 						"rotate-y": "Mouse.MovementY/10",
 						"min-polar-angle": "20",
 						"max-polar-angle": "180"
+					}
+				},
+				{
+					"id": "set-angle",
+					"objectClass": "camara",
+					"sid": 717831809535131,
+					"parameters": {
+						"angle": "Cámara3D.CameraXRotation"
 					}
 				}
 			],

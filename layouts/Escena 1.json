@@ -47,35 +47,6 @@
 					}
 				},
 				{
-					"type": "laser",
-					"properties": {
-						"initially-visible": true,
-						"initial-animation": "Animation 1",
-						"initial-frame": 0,
-						"enable-collisions": true,
-						"live-preview": false
-					},
-					"uid": 19,
-					"instanceVariables": {},
-					"behaviors": {},
-					"world": {
-						"x": -271,
-						"y": 1310,
-						"width": 2295,
-						"height": 30,
-						"originX": 0,
-						"originY": 0.5,
-						"color": [
-							1,
-							1,
-							1,
-							1
-						],
-						"angle": 0,
-						"zElevation": 0
-					}
-				},
-				{
 					"type": "Pared",
 					"properties": {
 						"shape": "box",
@@ -462,6 +433,35 @@
 						],
 						"angle": 0,
 						"zElevation": 17
+					}
+				},
+				{
+					"type": "laser",
+					"properties": {
+						"initially-visible": true,
+						"initial-animation": "Animation 1",
+						"initial-frame": 0,
+						"enable-collisions": true,
+						"live-preview": false
+					},
+					"uid": 19,
+					"instanceVariables": {},
+					"behaviors": {},
+					"world": {
+						"x": -271,
+						"y": 1310,
+						"width": 2295,
+						"height": 30,
+						"originX": 0,
+						"originY": 0.5,
+						"color": [
+							1,
+							1,
+							1,
+							1
+						],
+						"angle": 0,
+						"zElevation": 18
 					}
 				},
 				{
