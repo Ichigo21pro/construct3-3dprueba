@@ -94,6 +94,31 @@
 				}
 			],
 			"sid": 838921926612678
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 314046464695882,
+					"parameters": {
+						"key": 87
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "camara",
+					"sid": 852210230587673,
+					"parameters": {
+						"angle": "Cámara3D.CameraXRotation",
+						"distance": "2"
+					}
+				}
+			],
+			"sid": 841765732651462
 		}
 	],
 	"sid": 948143813749575
