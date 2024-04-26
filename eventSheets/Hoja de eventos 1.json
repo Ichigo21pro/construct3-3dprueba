@@ -104,9 +104,9 @@
 				{
 					"id": "on-click",
 					"objectClass": "Mouse",
-					"sid": 925187294450744,
+					"sid": 493149581181215,
 					"parameters": {
-						"mouse-button": "left",
+						"mouse-button": "right",
 						"click-type": "clicked"
 					}
 				}
@@ -219,6 +219,32 @@
 				}
 			],
 			"sid": 390978230433984
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 820993452296389,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "weapon",
+					"sid": 958716668347287,
+					"parameters": {
+						"animation": "\"shoot\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 189865313770395
 		}
 	],
 	"sid": 948143813749575
