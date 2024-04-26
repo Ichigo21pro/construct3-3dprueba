@@ -119,6 +119,81 @@
 				}
 			],
 			"sid": 841765732651462
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 612797773585241,
+					"parameters": {
+						"key": 83
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "camara",
+					"sid": 415525271719121,
+					"parameters": {
+						"angle": "Cámara3D.CameraXRotation",
+						"distance": "-2"
+					}
+				}
+			],
+			"sid": 320331576052563
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 732330947123978,
+					"parameters": {
+						"key": 68
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "camara",
+					"sid": 828032097321693,
+					"parameters": {
+						"angle": "Cámara3D.CameraXRotation +90",
+						"distance": "2"
+					}
+				}
+			],
+			"sid": 442666260047902
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Teclado",
+					"sid": 217337185427704,
+					"parameters": {
+						"key": 65
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "move-at-angle",
+					"objectClass": "camara",
+					"sid": 228257291874096,
+					"parameters": {
+						"angle": "Cámara3D.CameraXRotation -90",
+						"distance": "2"
+					}
+				}
+			],
+			"sid": 390978230433984
 		}
 	],
 	"sid": 948143813749575
