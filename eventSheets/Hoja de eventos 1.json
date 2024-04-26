@@ -94,6 +94,14 @@
 					"parameters": {
 						"angle": "Cámara3D.CameraXRotation"
 					}
+				},
+				{
+					"id": "set-z-elevation",
+					"objectClass": "laser",
+					"sid": 390143648967717,
+					"parameters": {
+						"z": "laser.ZElevation-Mouse.MovementY/10"
+					}
 				}
 			],
 			"sid": 482281296817352
@@ -279,6 +287,56 @@
 				}
 			],
 			"sid": 159864306542932
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-click",
+					"objectClass": "Mouse",
+					"sid": 872729415664989,
+					"parameters": {
+						"mouse-button": "left",
+						"click-type": "clicked"
+					}
+				},
+				{
+					"id": "is-overlapping-another-object",
+					"objectClass": "laser",
+					"sid": 784996373023761,
+					"parameters": {
+						"object": "enemy"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 378615900264328,
+					"parameters": {
+						"first-value": "laser.ZElevation",
+						"comparison": 5,
+						"second-value": "enemy.ZElevation - 5"
+					}
+				},
+				{
+					"id": "compare-two-values",
+					"objectClass": "System",
+					"sid": 337721456013478,
+					"parameters": {
+						"first-value": "laser.ZElevation",
+						"comparison": 3,
+						"second-value": "enemy.ZElevation +5"
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "destroy",
+					"objectClass": "enemy",
+					"sid": 581080914084494
+				}
+			],
+			"sid": 215089820338676
 		}
 	],
 	"sid": 948143813749575
