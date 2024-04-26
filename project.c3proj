@@ -40,6 +40,13 @@
 			"name": "Sprite",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Sin",
+			"name": "Sine",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "r261jr33wsi",
@@ -51,7 +58,8 @@
 			"camara",
 			"Mouse",
 			"Teclado",
-			"enemy"
+			"enemy",
+			"weapon"
 		],
 		"subfolders": []
 	},
